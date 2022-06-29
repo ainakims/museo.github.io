@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
@@ -62,11 +63,12 @@
             background-size: cover;
         }
 
-        h1 {
+        .marco h1 {
             font-family: 'Poppins', sans-serif;
             font-size: 44px;
             color: white;
             cursor: default;
+            text-align: left;
         }
 
         h3 {
@@ -226,10 +228,7 @@
             font-weight: 500;
             color: #333;
         }
-
-
-
-
+        /* Footer */
         .foot {
             text-align: center;
         }
@@ -260,9 +259,10 @@
         }
 
         /* Responsive */
-        @media screen and (max-width: 300px) {
+        @media screen and (max-width: 434px) {
             .marco h1 {
-                font-size: 26px;
+                font-size: 38px;
+                text-align: center;
             }
         }
 
@@ -293,6 +293,9 @@
         @media screen and (max-width: 767px) {
             .col-2 {
                 width: 100%;
+            }
+            form {
+                margin-bottom: 24px;
             }
         }
     </style>
@@ -512,7 +515,7 @@
             <div data-role="content" data-position="inline">
                 <div class="p-5 rounded fondo-3">
                     <div class="marco">
-                        <h1>Exhibiciones</h1>
+                        <h1>Exhibición</h1>
                     </div>
                 </div>
                 <br>
